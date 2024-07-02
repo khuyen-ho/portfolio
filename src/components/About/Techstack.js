@@ -1,68 +1,53 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiJavascript1, DiReact, DiNodejs, DiGit } from "react-icons/di";
+import { SiNextdotjs, SiFirebase, SiPostgresql } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiReact />
+        <p style={{ fontSize: "20px" }}>ReactJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <p style={{ fontSize: "20px" }}>JavaScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiTypescript />
+        <p style={{ fontSize: "20px" }}>TypeScript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+        <p style={{ fontSize: "20px" }}>Next.js</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+        <p style={{ fontSize: "20px" }}>Node.js</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+        <p style={{ fontSize: "20px" }}>NestJS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <p style={{ fontSize: "20px" }}>Git</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <p style={{ fontSize: "20px" }}>Firebase</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
-      </Col>
+        <p style={{ fontSize: "20px" }}>PostgreSQL</p>
+      </Col>{" "}
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiMysql />
+        <p style={{ fontSize: "20px" }}>MySQL</p>
       </Col>
     </Row>
   );

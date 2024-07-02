@@ -8,13 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am{" "}
+            <span className="purple">Khuyen Ho (or Tina) </span>
+            from <span className="purple"> Ho Chi Minh City, Vietnam.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at CodeLink.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Graduated from University of Science - Vietnam National University -
+            Ho Chi Minh city (VNU-HCM), majored in Software Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +25,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Reading Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,9 +33,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Don't hesitate to try new things!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Khuyen Ho</footer>
         </blockquote>
       </Card.Body>
     </Card>
